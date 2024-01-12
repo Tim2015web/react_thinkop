@@ -1,0 +1,146 @@
+.materials {
+  padding: 118px 0 98px;
+  background-color: var(--grey-extra-light, #F8FAFF);
+
+  @media (max-width: 500px) {
+    padding: 59px 0 49px;
+  }
+
+  .wrapper {
+    display: grid;
+    padding: 0 32px;
+
+    @media (max-width: 500px) {
+      padding: 0;
+    }
+  }
+
+  .title {
+    max-width: 859px;
+    padding: 0 8px;
+    display: grid;
+    gap: 46px;
+
+    @media (max-width: 500px) {
+      gap: 36px;
+    }
+
+    h1 {
+      color: var(--grey-medium-dark, #7884A5);
+      font-size: 72px;
+      font-weight: 700;
+      line-height: 70px;
+      letter-spacing: -1.5px;
+
+      @media (max-width: 500px) {
+        font-size: 46px;
+        line-height: 60px;
+      }
+    }
+
+    p {
+      color: var(--Black, #292E3D);
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 32px;
+
+      @media (max-width: 500px) {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .cards {
+    margin-top: 57px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 12px;
+  }
+
+  .controllers {
+    margin-top: 10px;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+
+
+    svg {
+      rect {
+        @media (max-width: 500px) {
+          width: 24px;
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+
+        rect {
+          fill: #7884A5;
+        }
+
+        path {
+          stroke: #7884A5;
+        }
+      }
+    }
+  }
+}
+
+//MaterialsCard.jsx
+
+.materialsCard {
+  flex: 0 0 auto;
+
+  display: grid;
+  gap: 28px;
+  width: 344px;
+  max-width: 100%;
+  align-self: start;
+
+  @media (max-width: 500px) {
+    gap: 14px;
+  }
+
+  .materialsCard__image {
+
+    img {
+      height: 344px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .materialsCard__title {
+    padding: 0 8px;
+    display: grid;
+    gap: 8px;
+
+
+    h4 {
+      color: var(--grey-dark, var(--grey-dark, #525C7A));
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 28px;
+      letter-spacing: -0.056px;
+
+      @media (max-width: 500px) {
+        font-size: 22px;
+      }
+    }
+
+    p {
+      color: var(--grey-medium-light, #A2ACC7);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 18px;
+    }
+  }
+}
+
+.additionalClass {
+  width: 688px;
+}

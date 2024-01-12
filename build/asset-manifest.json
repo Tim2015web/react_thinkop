@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_thinkop/static/css/main.e7008191.css",
+    "main.js": "/react_thinkop/static/js/main.468973fa.js",
+    "index.html": "/react_thinkop/index.html",
+    "main.e7008191.css.map": "/react_thinkop/static/css/main.e7008191.css.map",
+    "main.468973fa.js.map": "/react_thinkop/static/js/main.468973fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7008191.css",
+    "static/js/main.468973fa.js"
+  ]
+}
