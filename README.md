@@ -17,4 +17,4 @@ Project Notes:
 
 ---
 
-<img src="screenshot.jpg" title="Screenshot" alt="HTML"/>
+<img src="screenshot.png" title="Screenshot" alt="HTML"/>
